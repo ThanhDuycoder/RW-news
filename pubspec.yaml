@@ -1,0 +1,24 @@
+name: rw_news
+description: "A new Flutter project."
+publish_to: 'none'
+
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.20.2
+  image_picker: ^1.1.2
+  objectbox: ^4.1.0
+  objectbox_flutter_libs: ^4.1.0
+  build_runner: ^2.4.15
+  objectbox_generator: ^4.1.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
